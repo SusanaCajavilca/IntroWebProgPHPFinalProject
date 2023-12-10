@@ -1,0 +1,268 @@
+/**** Global header****/
+
+.navbar-brand img{  /*Adjusting the height of the menu bar*/
+    height: 120px;
+    width: auto;
+}
+
+body{
+    background-color:#f4f4f4;
+}
+
+/**** Home Page ****/
+.masthead{    /*Adjusting the image  that goes in the masthead*/
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/masthead_image.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+h1{
+    color:#f4f4f4; /* A nice white , nice to the eyes of the user*/
+    font-family: 'Raleway',sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-align: center;
+    text-shadow: 10px 2px 8px rgba(0,0,0,0.7);
+}
+
+.blue{
+    color: #004d99;  /*emphasis on Computer Science */
+    font-weight: bold;
+}
+.rule{
+    font-weight: bold;  /*emphasis on the rule */
+}
+
+main{
+    justify-content: center;    /* putting everything on the center */
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.explaining h2{
+    padding: 3% 1% 1% 1%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.explaining p{
+    padding: 1% 8%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 2.5;
+
+}
+.table-responsive{
+    padding: 1% 15% 5% 15%;
+    font-size: 18px;
+}
+
+/**** ViewContent Page ****/
+
+.masthead2{    /*Adjusting the image  that goes in the masthead*/
+    height: 70vh;
+    width: 100%;
+    background-image: url('../img/masthead_two.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead2 div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+/**** Register Page ****/
+
+.masthead3{    /*Adjusting the image  that goes in the masthead*/
+    height: 90vh;
+    width: 100%;
+    background-image: url('../img/masthead_three.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead3 div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+.col-sm-10{
+    margin-left: 8%;
+    padding: 1% 1% 3% 1%;
+}
+
+
+.register h2{
+    padding: 3% 1% 1% 1%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/**** Save-user Page ****/
+.row{
+    width: 100%;
+
+}
+
+.save > .row {
+    --bs-gutter-x: 0rem
+}
+
+.save{
+    height: 58vh;
+}
+/**** Edit Register Page ****/
+
+.masthead4{    /*Adjusting the image that goes in the masthead*/
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/banner1.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead4 div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+/**** Edit Content Page ****/
+
+.masthead5{    /*Adjusting the image that goes in the masthead*/
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/banner2.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead5 div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+.smallimage{
+    height: 50px; /*I had to make it small so it can fit the row*/
+    width: auto;
+}
+.smallimage img{
+    height: 50px; /*I had to make it small so it can fit the row*/
+    width: auto;
+
+}
+/**** 404 Page ****/
+.errormasthead{
+    height: 400px;
+    width: 100%;
+    background-image: url('../img/error_banner.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+
+}
+
+.errormasthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+.error-button{
+    background-color: #0dcaf0;
+    padding: 15px 45px;
+    border: solid 2px #0dcaf0;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+.errormessage{
+    padding: 1% 10% 1% 10%;
+    text-align: center;
+}
+
+.errormessage div p:nth-child(4){
+    font-size: 25px;
+}
+
+.title{
+    padding: 1% 1.5% 1% 1%;
+}
+/**** Global footer****/
+
+footer{
+    background-color: #0e0e0e;  /* A nice color black , nice to the eyes of the user*/
+    height: 160px;
+    display: flex;
+}
+
+footer > div{
+    align-items: center;
+    justify-content: center;
+}
+
+
+h5{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color: #f4f4f4;     /* A nice white , nice to the eyes of the user*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 50%;
+    letter-spacing: 1px;
+}
+
+footer div:nth-child(1){
+    margin-left: 45%;     /* With this I move the text to the center of the footer*/
+}
+
+footer div:nth-child(2){
+    margin-left: auto;  /*With this I move the  Logo to the right corner*/
+    height: 160px;
+}
+
+footer div:nth-child(2) img{
+    width: auto;      /*Adjusting the image of the footer*/
+    height: 100%;
+}
+
+/* EditContent Page*/
+
+.container{
+    padding: 4%;
+}
+.salida{
+    text-align: center;
+    height: 60vh;
+}
+/* Transition Page*/
+.mx-auto {
+    border: 4px solid #004d99 ;
+    border-radius: 20px
+}
